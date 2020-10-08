@@ -1,0 +1,2 @@
+relNotesFileName=$(ectool getProperty "/myJob/relNotesFile")
+ectool setOutputParameter "relNotesLink" "<html><a target=\"_blank\" href=\"/commander/jobSteps/$[/myJobStep/jobStepId]/$relNotesFileName\">Release Notes</a></html>"

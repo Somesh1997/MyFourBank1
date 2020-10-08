@@ -1,0 +1,4 @@
+
+catalog 'myFourBank', {
+  projectName = 'myFourBank'
+}
